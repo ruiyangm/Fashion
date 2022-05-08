@@ -107,9 +107,9 @@
         skin: 'round',
 		hide_min_max: true,
 		min: 0,
-		max: 500,
+		max: 2000,
 		from: 50,
-		to: 440
+		to: 500
     });
 
     

@@ -3,19 +3,19 @@
 
   $(window).on('load', function () {
     
-    /* preloader activate */
+
     $(".preloader-activate").removeClass('preloader-active');
   });
   
-  /* offcanvas menu active */
+
   $("#header-menu-trigger").on("click", function(e){
     e.stopPropagation();
     $("#offcanvas-menu").toggleClass("active");
     $(".body-wrapper").toggleClass("active-overlay");
     $("body").toggleClass("overflow-hidden");
   });
-  
-  /* shop filter menu active */
+
+	
   $("#filter-trigger").on("click", function(e){
     e.stopPropagation();
     $("#shop-filter-menu").slideToggle();
@@ -26,17 +26,16 @@
     $("#shop-filter-menu").slideUp();
   });
   
-  /* remove active class on click other parts of the body */
+
   $('body').on('click', function(){
     $("#offcanvas-menu").removeClass("active");
     $(".body-wrapper").removeClass("active-overlay");
     $("body").removeClass("overflow-hidden");
   });
 
-  /* svg inject */
+
   SVGInject($(".injectable"));
 
-  /* background image set */
   var bgSelector = $(".bg-img");
   bgSelector.each(function (index, elem) {
       var element = $(elem),
@@ -44,7 +43,7 @@
       element.css('background-image', 'url(' + bgSource + ')');
   });
 
-  /* slick slider activation */
+
   
   $('.hero-slider-wrapper').slick({
     slidesToShow: 1,
@@ -89,7 +88,6 @@
   ]
   });
 
-  /* search keyword */
   
   $("#header-search-input").on("focus", function(){
     $("#search-keyword-box").slideDown();
@@ -99,8 +97,7 @@
     $("#search-keyword-box").slideUp();
   });
 
-  
-  /* price range */
+
 
   $('#price-range-slider').ionRangeSlider({
 		type: 'double',
@@ -113,7 +110,7 @@
     });
 
     
-    /* cart plus minus */
+ 
     
     var CartPlusMinus = $('.cart-plus-minus');
     CartPlusMinus.prepend('<div class="dec qtybutton">-</div>');
@@ -124,7 +121,7 @@
         if ($button.text() === "+") {
             var newVal = parseFloat(oldValue) + 1;
         } else {
-            // Don't allow decrementing below zero
+       
             if (oldValue > 1) {
                 var newVal = parseFloat(oldValue) - 1;
             } else {

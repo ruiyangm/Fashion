@@ -1,40 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
-/*=============================================
-=            Index            =
-=============================================
-
-  -> Default
-  -> Common
-  -> Helper
-  -> Spacing
-  -> Header
-  -> Footer
-  -> Button
-  -> Section Title
-  -> Backgrounds
-  -> Breadcrumb
-  -> Preloader
-  -> Hero Slider
-  -> Category Slider
-  -> Product
-  -> Contact Content
-  -> Profile
-  -> Authentication
-  -> Welcome
-  -> Notification
-  -> Chat
-  -> Cart
-  -> Checkout
-
-/*=====  End of Index  ======*/
-
-/*=============================================
-=            Default            =
-=============================================*/
-
-/*-- Google Font --*/
-
 *,
 *::after,
 *::before {
@@ -148,13 +113,7 @@ textarea:focus:-ms-input-placeholder {
 	color: transparent;
 }
 
-/* IE 10+ */
 
-/*=====  End of Default  ======*/
-
-/*=============================================
-=            Common            =
-=============================================*/
 
 .bg-img {
 	background-repeat: no-repeat;
@@ -188,11 +147,6 @@ textarea:focus:-ms-input-placeholder {
 	background: transparent;
 }
 
-/*=====  End of Common  ======*/
-
-/*=============================================
-=            Helper            =
-=============================================*/
 
 .row-0 {
 	margin-right: 0px;
@@ -716,11 +670,6 @@ textarea:focus:-ms-input-placeholder {
 	padding-left: 0;
 }
 
-/*=====  End of Helper  ======*/
-
-/*=============================================
-=            Spacing            =
-=============================================*/
 
 .space-xy--10 {
 	padding: 10px;
@@ -865,11 +814,7 @@ textarea:focus:-ms-input-placeholder {
 	padding-top: 100px;
 }
 
-/*=====  End of Spacing  ======*/
 
-/*=============================================
-=            Header            =
-=============================================*/
 
 header {
 	position: fixed;
@@ -1068,11 +1013,7 @@ header .header-menu-trigger:focus {
 	background-color: #FFFFFF;
 }
 
-/*=====  End of Header  ======*/
 
-/*=============================================
-=            Footer            =
-=============================================*/
 
 .footer-nav-wrapper {
 	position: fixed;
@@ -1160,17 +1101,7 @@ header .header-menu-trigger:focus {
 	opacity: 1;
 }
 
-/*=====  End of Footer ======*/
 
-/*=============================================
-=            Button            =
-=============================================*/
-
-/*=====  End of Button  ======*/
-
-/*=============================================
-=            Section Title            =
-=============================================*/
 
 .section-title {
 	font-size: 18px;
@@ -1188,7 +1119,7 @@ header .header-menu-trigger:focus {
 	transform: translateY(-50%);
 }
 
-/*=====  End of Section Title  ======*/
+
 
 .bg-color--grey {
 	background-color: rgba(179, 181, 183, 0.1);
@@ -1205,9 +1136,6 @@ header .header-menu-trigger:focus {
 	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F1F1F1 100%);
 }
 
-/*=============================================
-=            breadcrumb            =
-=============================================*/
 
 .breadcrumb-area .page-title {
 	font-size: 14px;
@@ -1222,11 +1150,7 @@ header .header-menu-trigger:focus {
 	margin-right: 3px;
 }
 
-/*=====  End of breadcrumb  ======*/
 
-/*=============================================
-=            preloader            =
-=============================================*/
 
 .preloader-active {
 	position: fixed;
@@ -1272,11 +1196,7 @@ header .header-menu-trigger:focus {
 	display: none;
 }
 
-/*=====  End of preloader  ======*/
 
-/*=============================================
-=            hero slider            =
-=============================================*/
 
 .hero-slider-wrapper .slick-active .hero-slider-content > *:nth-child(1) {
 	-webkit-animation-name: fadeInTop;
@@ -1376,11 +1296,6 @@ header .header-menu-trigger:focus {
 	color: #02011E;
 }
 
-/*=====  End of hero slider  ======*/
-
-/*=============================================
-=            category slider            =
-=============================================*/
 
 .category-item {
 	text-align: center;
@@ -1414,11 +1329,6 @@ header .header-menu-trigger:focus {
 	color: #000000;
 }
 
-/*=====  End of category slider  ======*/
-
-/*=============================================
-=            product             =
-=============================================*/
 
 /* featured product */
 
